@@ -9,7 +9,7 @@ contract MyWallet {
     uint256 Mybal;
    
 
-    //to give eth to address
+    //to give eth to address here
     function ShowBalance () public payable {
         Mybal += msg.value;
     }
